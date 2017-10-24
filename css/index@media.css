@@ -1,0 +1,81 @@
+@media only screen and (max-width: 1024px)
+
+{
+	.inner {
+		width: 98%;
+	}
+	header {
+		background: url(../img/banner-1024.jpg) no-repeat center top;
+	}
+}
+
+@media only screen and (max-width:678px) {
+	.article-list li {
+		width: 47%;
+	}
+}
+@media only screen and (max-width:400px) {
+	header{
+		height: auto;
+	}
+	.banner .inner{
+		margin-top: 0;
+	}
+	section .inner{
+	margin-top: 0;
+	width: 88%;
+}
+	.text .download{
+		float: none;
+		margin: 0 auto;
+	}
+	.ewm{
+		float: none;
+		margin: 0 auto;
+		width: 108px;
+		box-sizing: border-box;
+	}
+	.ewm img{
+		width: 76px;
+		height: 76px;
+	}
+	.ewm p{
+		width: 76px;
+		margin: 0 auto;
+}
+	.inner .text h2{
+		text-align: center;
+	}
+	.inner .text h3{
+		text-align: center;
+	}
+	.article-list li {
+		width: 100%;
+	}
+	.text .note{
+	width: 98%;
+	font-size: 14px;
+	color: #F5F5F5;
+	margin-bottom: 20px;
+	}
+.btns a{
+	display: block;
+	font-size: 16px;
+	line-height: 36px;
+	overflow: hidden;
+}
+.btns a .login1{
+	padding: 0 5px 0 12px;
+}
+
+.btns a .login2{
+	padding: 0 12px;
+
+}
+
+}
+@media only screen and (max-width:376px){
+	.btns{
+		display: none;
+	}
+}
